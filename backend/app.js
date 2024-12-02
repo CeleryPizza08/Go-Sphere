@@ -63,7 +63,7 @@ app.use((error, req, res, next) => {
 });
 mongoose
   .connect(
-    'mongodb+srv://wong1833:Wongzc_1833@cluster0.msgv2xp.mongodb.net/RoamRider?retryWrites=true&w=majority&appName=Cluster0'
+    ''
   )
   .then((result) => {
     app.listen(port);
